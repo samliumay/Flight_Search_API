@@ -21,8 +21,6 @@ This feature ensures users can efficiently find flights that match their specifi
 ## API Endpoints
 /Havaalani: For airport management, supporting GET and POST requests.
 /Ucuslar: For flight details, supporting GET requests.
-/search: For querying flights based on specific criteria, supporting customized search functionality for one-way and round-trip flights.
-Getting Started
 To get the project up and running on your local machine:
 
 ## Clone the repository.
@@ -31,13 +29,10 @@ Ensure Maven and JDK 11+ are installed.
 Run DemoApplication as a Java application.
 Access the application at localhost:8080. Use Postman or similar tools to interact with the APIs.
 Note on Swagger Documentation
-Due to time constraints, Swagger documentation for the API endpoints is not included at this stage. We plan to integrate comprehensive API documentation in the near future to enhance developer experience and facilitate API interaction.
+Due to time constraints, Swagger documentation for the API endpoints is not included at this stage. We plan to integrate comprehensive API documentation in the near future to enhance developer experience and facilitate API interaction. Also due to error at the Havaalani, there can be some errors about it. I was not able to solve the problem that spring boot authomatically added some columns to the table at SQL. so Sory for that.
 
 ## Authentication Details
 Before accessing the APIs, users must authenticate themselves. The authentication system is built using Spring Boot's security starter. Detailed instructions on how to authenticate will be provided in the future documentation.
 
-## Contributing
-Contributions to the project are highly encouraged. Please fork the repo and submit pull requests with your changes for review.
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for more details.
+## An important note for the reader
+Please give me a chance. Becaouse of the health issues I was not able to look this assigment more than one day. I do not use spring boot before and I able to learn spring boot before. Maybe you are using this technology at your departmant but I am sure that I will able to addapt to the techs you use. Please give me a Chance. Best regards.
